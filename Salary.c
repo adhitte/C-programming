@@ -11,7 +11,7 @@ int main()
   TA=basicsalary*0.05;
   grosssalary=HRA+TA+basicsalary;
   PT=grosssalary*0.02;
-  netsalary=grosssalry-PT;
+  netsalary=grosssalary-PT;
   
   printf("HRA is %f\n",HRA);
   printf("TA is %f\n",TA);

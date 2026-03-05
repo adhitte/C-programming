@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
     char str1[100];
-    printf("Enter first string: ");
-    fgets(str1, sizeof(str1), stdin);
-    scanf
+    printf("Enter string: ");
+    scanf("%s", str1);
+    printf("You entered: %s\n", str1);
+    return 0;
+}

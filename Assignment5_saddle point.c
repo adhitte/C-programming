@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n, i, j, k;
+    int n, i, j;
     printf("Enter order of square matrix: ");
     scanf("%d", &n);
 

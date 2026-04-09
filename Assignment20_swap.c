@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-// Function to swap by value (Does not affect main)
 void swapvalue(int a, int b) {
     int temp;
     temp = a;
@@ -9,7 +8,6 @@ void swapvalue(int a, int b) {
     printf("Inside swapvalue: a=%d, b=%d\n", a, b);
 }
 
-// Function to swap by reference (Affects main)
 void swapreference(int *a, int *b) {
     int temp;
     temp = *a;
